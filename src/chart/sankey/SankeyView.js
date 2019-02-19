@@ -234,7 +234,7 @@ export default echarts.extendChartView({
                 shape: {
                     x: dragX != null ? dragX * width : layout.x,
                     y: dragY != null ? dragY * height : layout.y,
-                    width: layout.dx,
+                    width: itemModel.getModel('itemStyle').getItemStyle().width,
                     height: layout.dy
                 },
                 style: itemModel.getModel('itemStyle').getItemStyle()

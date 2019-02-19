@@ -150,7 +150,8 @@ var SankeySeries = SeriesModel.extend({
 
         itemStyle: {
             borderWidth: 1,
-            borderColor: '#333'
+            borderColor: '#333',
+            width: 20
         },
 
         lineStyle: {
